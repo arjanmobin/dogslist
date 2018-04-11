@@ -10,6 +10,10 @@ app.get("/", function(req, res){
    res.send("GET/");
 });
 
+app.post("/dogs", function(req,res){
+   res.send("POST /dogs");
+});
+
 
 
 app.listen(port, function(){
